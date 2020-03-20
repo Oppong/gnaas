@@ -19,9 +19,15 @@ class CreateUsersSeeder extends Seeder
                 'is_admin'=>'1',
                'password'=> bcrypt('amponsah'),
             ],
-           
+            [
+               'name'=>'Admin',
+               'email'=>'amponsahoppong@gmail.com',
+                'is_admin'=>'1',
+               'password'=> bcrypt('year2019/2020'),
+            ],
+
         ];
-  
+
         foreach ($user as $key => $value) {
             User::create($value);
         }
