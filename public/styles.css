@@ -1,0 +1,252 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+form {
+  padding: 0 3%;
+}
+
+.form-input {
+  border-radius: 50px;
+}
+
+
+
+
+
+/* navigation  */
+.navs {
+  padding: 1% 15%;
+}
+
+
+.intro {
+  text-align: center;
+  color: white;
+  padding: 15% 0;
+}
+.intro-heading {
+  font-weight: bold;
+  
+}
+
+.intro-body {
+    margin-bottom: 2%;
+}
+
+.navbar-toggler{
+  border: none;
+ }
+
+@media screen and (max-width: 578px) {
+  .intro {
+    padding: 70% 0;
+  }
+
+  .intro-heading {
+    font-size: 1.5rem;
+    padding: 0 2%;
+  }
+
+  .intro-body {
+      margin-bottom:10%;
+      padding: 0 7%;
+      font-size: 0.83rem;
+  }
+}
+
+
+
+
+/* banner section */
+
+.banner {
+  text-align: center;
+  color: white;
+  padding: 12% 0;
+}
+.banner-heading {
+  font-weight: bolder;
+}
+
+
+@media screen and (max-width: 578px) {
+  .banner {
+    padding: 50% 0;
+  }
+
+  .banner-heading {
+    font-size: 1.5rem;
+    padding: 0 2%;
+  }
+
+  .banner-body {
+      padding: 4% 5%;
+  }
+
+}
+
+
+
+
+/* footer section css */
+
+footer {
+  background-color: #1b262c;
+  padding: 7% 15%;
+  color: white;
+}
+
+.quick {
+  line-height: 1;
+}
+
+
+
+
+/* contact section  */
+.about-section {
+  padding: 10% 15%;
+}
+
+.about-heading {
+  font-weight: bold;
+}
+
+.about-body {
+  color: #8f8f8f;
+}
+
+
+@media screen and (max-width: 578px) {
+
+  .about {
+    padding: 16% 10%;
+  }
+
+  .about-box {
+    margin-bottom: 15%;
+  }
+
+}
+
+.about-middle-section {
+  padding: 10% 15%;
+  background-image: url('/images/night.png');
+  color: white;
+}
+
+
+.leaders-section {
+  padding: 10% 15%;
+}
+
+.leaders-text {
+  color: #8f8f8f;
+}
+
+.img-circle {
+  border-radius: 100%;
+}
+
+/* Contact section  */
+.contact-section {
+  padding: 7% 15%;
+}
+
+
+
+
+/* alumni section */
+.alumni-section {
+  padding: 7% 15%;
+}
+
+.alumni-section-heading {
+  font-weight: bolder;
+}
+
+.alumni-box {
+  padding-top: 15%;
+}
+
+@media screen and (max-width: 578px) {
+
+  .alumni-section-heading {
+      font-weight: bolder;
+    font-size: 2rem;
+  }
+
+}
+
+
+/* gallery section */
+
+.gallery-section-one {
+  padding: 7% 15%;
+}
+
+
+/* blog section */
+
+.blog-section {
+    padding: 10% 15%;
+}
+
+.blog-section-heading {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  color: #1b262c;
+  font-weight: bold;
+}
+
+
+/* mission */
+
+.mission-section {
+  padding: 10% 15%;
+}
+
+.mission-body {
+  color: #8f8f8f;
+}
+
+.mission-heading {
+  font-weight: bold;
+}
+
+.mission-icon {
+  color:#00ADAE;
+}
+
+
+
+/* upcoming */
+
+.upcoming-section {
+  padding: 10% 15%;
+}
+
+/* additional css */
+
+.zoom {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoom:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.zoom img {
+  transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
