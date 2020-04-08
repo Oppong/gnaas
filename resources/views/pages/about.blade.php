@@ -63,7 +63,7 @@
 
   <div class="col-md-3 text-center mb-5">
     <i class="fas fa-user-friends mb-2 fa-lg"></i>
-    <h4 class="num font-weight-bold">2000</h4>
+    <h4 class="num font-weight-bold">3000</h4>
     <h6>TOTAL STUDENTS</h6>
   </div>
 
