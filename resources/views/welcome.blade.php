@@ -16,13 +16,14 @@
   <body>
   <div id="app">
     <nav class="navbar navbar-expand-lg navs">
-      <!-- <img src="" alt="" class="navbar-brand" > -->
+
       <div class="navbar-brand">
-          <a class="text-muted">GNAAS UDS WA-CAMPUS</a>
+          <img src="images/heyy.png" alt="logo" >
+          <!-- <a class="text-muted">GNAAS UDS WA CAMPUS</a> -->
       </div>
 
       <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fa fa-bars "></span>
+        <span class="fa fa-bars text-muted"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">

@@ -15,7 +15,8 @@ class UpcomingEventsController extends Controller
      */
     public function index()
     {
-        $upcomings = Upcoming::all();
+
+       $upcomings = Upcoming::all();
         return view('admin.upcoming.index', compact('upcomings'));
     }
 
@@ -46,7 +47,7 @@ class UpcomingEventsController extends Controller
 
         $upcoming->title = $request->title;
         $upcoming->body = $request->body;
-        $upcoming->addMedia($request->image)->toMediaCollection('upcoming');
+        $upcoming->addMedia($request->image)->withResponsiveImages()->toMediaCollection('upcoming');
         $upcoming->save();
 
         return redirect()->route('upcoming.index');

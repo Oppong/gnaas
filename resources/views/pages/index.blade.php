@@ -22,15 +22,15 @@
                         <h6 class="mission-heading mt-4">WHy WE EXIST</h6>
                         <p class="mission-body text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officia iste in iure debitis, reprehenderit possimus, at sunt facere </p>
                 </div>
-                
+
                 <div class="col-md-4" v-for="mission in missions">
                         <i class="fas fa-synagogue mission-icon"></i>
                         <h6 class="mission-heading mt-4">OUR COMMUNITY</h6>
                         <p class="mission-body text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis officia iste in iure debitis, reprehenderit possimus, at sunt facere </p>
                 </div>
         </div>
-        
-        
+
+
 </div>
 
 <div style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url('images/happy-2.jpg'); height: 450px; background-size: cover; " >
@@ -61,7 +61,7 @@
                 </div>
                 @endforeach
 
-                
+
         </div>
 </div>
 
